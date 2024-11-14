@@ -1,0 +1,25 @@
+.wrapper
+{
+    background:linear-gradient(rgb(119, 231, 119),rgb(19, 153, 171));
+    height: 100vh;
+}
+.backdrop
+{
+    backdrop-filter: blur(12px);
+    /* background: url(./assest/a.jpg); */
+    background-size: cover;
+}
+.wrapper
+{
+    backdrop-filter: blur(1px);
+    /* background: url(./assest/b.jpg); */
+    background-size: cover;
+     
+}
+.glass
+{
+    background: rgba(214, 225, 208, 0.414);
+    
+    backdrop-filter: blur(5px);
+
+}
